@@ -1,0 +1,526 @@
+2016-04-12 16:27:09 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 16:27:09 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 16:27:09 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 16:27:09 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 16:27:09 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 16:27:09 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 16:27:09 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 16:27:09 [scrapy] INFO: Spider opened
+2016-04-12 16:27:09 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 16:27:09 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 16:27:11 [scrapy] DEBUG: Received cookies from: <200 https://github.com/login>
+Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 08:27:55 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiMDM4ODYxZTUzOWY3ZWFlOTA0ODE2ODc1OGY4MzVmYWIiLCJfY3NyZl90b2tlbiI6IlVHUzB4UFFBaExRc3ZzTDV1QmlzM2tseDFNTTZaSXBkb3hSM1NIaFBhem89In0%3D--f8a8b050c4c7938845c87bd95d1463f221bcd90b; path=/; secure; HttpOnly
+2016-04-12 16:27:11 [scrapy] DEBUG: Crawled (200) <GET https://github.com/login> (referer: None)
+2016-04-12 16:27:11 [scrapy] INFO: Closing spider (finished)
+2016-04-12 16:27:11 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 213,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 6650,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 8, 27, 11, 340000),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 4, 12, 8, 27, 9, 641000)}
+2016-04-12 16:27:11 [scrapy] INFO: Spider closed (finished)
+2016-04-12 16:51:16 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 16:51:16 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 16:51:16 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 16:51:16 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 16:51:16 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 16:51:16 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 16:51:16 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 16:51:16 [scrapy] INFO: Spider opened
+2016-04-12 16:51:16 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 16:51:16 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 16:51:17 [scrapy] DEBUG: Crawled (200) <GET https://duotai.org/login> (referer: None)
+2016-04-12 16:51:17 [scrapy] DEBUG: Crawled (200) <GET https://duotai.org/login?password=woshichuanqilz72&email=513278236%40qq.com> (referer: https://duotai.org/login)
+2016-04-12 16:51:17 [scrapy] INFO: Closing spider (finished)
+2016-04-12 16:51:17 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 512,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 39655,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 8, 51, 17, 880000),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2016, 4, 12, 8, 51, 16, 629000)}
+2016-04-12 16:51:17 [scrapy] INFO: Spider closed (finished)
+2016-04-12 16:51:34 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 16:51:34 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 16:51:34 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 16:51:34 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 16:51:34 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 16:51:34 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 16:51:34 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 16:51:34 [scrapy] INFO: Spider opened
+2016-04-12 16:51:34 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 16:51:34 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 16:51:34 [scrapy] DEBUG: Crawled (200) <GET https://duotai.org/login> (referer: None)
+2016-04-12 16:51:37 [scrapy] DEBUG: Crawled (200) <GET https://duotai.org/login?password=woshichuanqilz72&email=513278236%40qq.com> (referer: https://duotai.org/login)
+2016-04-12 16:51:37 [scrapy] INFO: Closing spider (finished)
+2016-04-12 16:51:37 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 512,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 39653,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 8, 51, 37, 351000),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2016, 4, 12, 8, 51, 34, 392000)}
+2016-04-12 16:51:37 [scrapy] INFO: Spider closed (finished)
+2016-04-12 17:56:10 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 17:56:10 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 17:56:10 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 17:56:11 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 17:56:11 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 17:56:11 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 17:56:11 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 17:56:11 [scrapy] INFO: Spider opened
+2016-04-12 17:56:11 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 17:56:11 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 17:56:12 [scrapy] DEBUG: Received cookies from: <200 https://github.com/login>
+Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 09:56:57 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiNzZmZGQzYzUwMDEzZWI2YmQ0ZTM0YTg2MTU3ODQxNTMiLCJfY3NyZl90b2tlbiI6ImU3M0VrSDdZSjdNelFWU3hmc3B5Z2xGL2t6TE14VEVJMHpjcDczeVUrUjg9In0%3D--c5afe25f0ad610b934025b078f5a1b59f80d1bdf; path=/; secure; HttpOnly
+2016-04-12 17:56:12 [scrapy] DEBUG: Crawled (200) <GET https://github.com/login> (referer: None)
+2016-04-12 17:56:12 [scrapy] INFO: Closing spider (finished)
+2016-04-12 17:56:12 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 213,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 6658,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 9, 56, 12, 623000),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 4, 12, 9, 56, 11, 290000)}
+2016-04-12 17:56:12 [scrapy] INFO: Spider closed (finished)
+2016-04-12 18:02:56 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 18:02:56 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 18:02:56 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 18:02:57 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 18:02:57 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 18:02:57 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 18:02:57 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 18:02:57 [scrapy] INFO: Spider opened
+2016-04-12 18:02:57 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 18:02:57 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 18:02:58 [scrapy] DEBUG: Received cookies from: <200 https://github.com/login>
+Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:03:43 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiNGFmOWQ4ZWMzYzE2ZWJiZmZmODczYTU0NWFiNzgzOTAiLCJfY3NyZl90b2tlbiI6IjQxdTNVTXhvMGZyUUtCVTJXTlZQQXA4TmFRR3VRZHVaZFovZzI5MXl3Qkk9In0%3D--cc4e4a6b72edd3ea72a72924892ca5a411cd0f03; path=/; secure; HttpOnly
+2016-04-12 18:02:58 [scrapy] DEBUG: Crawled (200) <GET https://github.com/login> (referer: None)
+2016-04-12 18:02:58 [scrapy] INFO: Closing spider (finished)
+2016-04-12 18:02:58 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 213,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 6664,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 10, 2, 58, 788000),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 4, 12, 10, 2, 57, 299000)}
+2016-04-12 18:02:58 [scrapy] INFO: Spider closed (finished)
+2016-04-12 18:04:06 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 18:04:06 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 18:04:06 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 18:04:06 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 18:04:06 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 18:04:06 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 18:04:06 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 18:04:06 [scrapy] INFO: Spider opened
+2016-04-12 18:04:06 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 18:04:06 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 18:04:08 [scrapy] DEBUG: Received cookies from: <200 https://github.com/login>
+Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:04:52 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiYTVhNzM4NDJkN2JkYmI0YmU3NjJhMzBhY2M4NjhhZTgiLCJfY3NyZl90b2tlbiI6ImdiZCtVbXZkSlBGSmFjeGVOZ2dCZ2JDNUJSMmk2ejdBc1Bjd25GUlhyNnc9In0%3D--f8f86b8109849da1baaf8a6c23ae664ff8525d5a; path=/; secure; HttpOnly
+2016-04-12 18:04:08 [scrapy] DEBUG: Crawled (200) <GET https://github.com/login> (referer: None)
+2016-04-12 18:04:08 [scrapy] INFO: Closing spider (finished)
+2016-04-12 18:04:08 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 213,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 6664,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 10, 4, 8, 200000),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 4, 12, 10, 4, 6, 772000)}
+2016-04-12 18:04:08 [scrapy] INFO: Spider closed (finished)
+2016-04-12 18:04:37 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 18:04:37 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 18:04:37 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 18:04:37 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 18:04:37 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 18:04:37 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 18:04:37 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 18:04:37 [scrapy] INFO: Spider opened
+2016-04-12 18:04:37 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 18:04:37 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 18:04:38 [scrapy] DEBUG: Received cookies from: <200 https://github.com/login>
+Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:05:23 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiZjk4NmE2OWZlMmIyMWM5MjgzN2U0ZTgzMjY0NjVkZTkiLCJfY3NyZl90b2tlbiI6ImtRSlk2TnBkL2R3OEMrazJkMVhhd2pYdU1HU1YralltZVlocWhDT2pBRWc9In0%3D--3f8c646919c1c8f521a8f55397cb9af65477b0a0; path=/; secure; HttpOnly
+2016-04-12 18:04:38 [scrapy] DEBUG: Crawled (200) <GET https://github.com/login> (referer: None)
+2016-04-12 18:04:38 [scrapy] DEBUG: Sending cookies to: <POST https://github.com/session>
+Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiZjk4NmE2OWZlMmIyMWM5MjgzN2U0ZTgzMjY0NjVkZTkiLCJfY3NyZl90b2tlbiI6ImtRSlk2TnBkL2R3OEMrazJkMVhhd2pYdU1HU1YralltZVlocWhDT2pBRWc9In0%3D--3f8c646919c1c8f521a8f55397cb9af65477b0a0; logged_in=no
+2016-04-12 18:04:39 [scrapy] DEBUG: Received cookies from: <302 https://github.com/session>
+Set-Cookie: user_session=dp8pfWvLCFmbejUuBlKjxH2WJqcv29J2ypfZZvM998z1x9bjVwzIY9wCeVZWCu_RHgFkpiCE549EQwDU; path=/; expires=Tue, 26 Apr 2016 10:05:23 -0000; secure; HttpOnly
+Set-Cookie: logged_in=yes; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:05:23 -0000; secure; HttpOnly
+Set-Cookie: dotcom_user=woshichuanqilz; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:05:23 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NTIzNzg1LCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiMDE0MjdjMGNiN2Y1MTY3NGQzMjE2MGNkNWFkODg3OGIifQ%3D%3D--1086ff3b05fa5890086f1afb16a069da3f2de1b2; path=/; secure; HttpOnly
+2016-04-12 18:04:39 [scrapy] DEBUG: Redirecting (302) to <GET https://github.com/> from <POST https://github.com/session>
+2016-04-12 18:04:39 [scrapy] DEBUG: Sending cookies to: <GET https://github.com/>
+Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NTIzNzg1LCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiMDE0MjdjMGNiN2Y1MTY3NGQzMjE2MGNkNWFkODg3OGIifQ%3D%3D--1086ff3b05fa5890086f1afb16a069da3f2de1b2; user_session=dp8pfWvLCFmbejUuBlKjxH2WJqcv29J2ypfZZvM998z1x9bjVwzIY9wCeVZWCu_RHgFkpiCE549EQwDU; logged_in=yes; dotcom_user=woshichuanqilz
+2016-04-12 18:04:39 [scrapy] DEBUG: Received cookies from: <200 https://github.com/>
+Set-Cookie: user_session=dp8pfWvLCFmbejUuBlKjxH2WJqcv29J2ypfZZvM998z1x9bjVwzIZOKAxCHY12bqA8CjhFwDFpWdIdJS; path=/; expires=Tue, 26 Apr 2016 10:05:24 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NTIzNzg1LCJmbGFzaCI6eyJkaXNjYXJkIjpbImFuYWx5dGljc19kaW1lbnNpb24iLCJhbmFseXRpY3NfbG9jYXRpb24iXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifSwiYW5hbHl0aWNzX2xvY2F0aW9uIjoiL2Rhc2hib2FyZCJ9fSwic2Vzc2lvbl9pZCI6IjAxNDI3YzBjYjdmNTE2NzRkMzIxNjBjZDVhZDg4NzhiIiwiY29udGV4dCI6Ii8ifQ%3D%3D--5dde22a72aaf2373dadda5eb81d9e96945c5feb7; path=/; secure; HttpOnly
+2016-04-12 18:04:39 [scrapy] DEBUG: Crawled (200) <GET https://github.com/> (referer: https://github.com/login)
+2016-04-12 18:04:39 [scrapy] ERROR: Spider error processing <GET https://github.com/> (referer: https://github.com/login)
+Traceback (most recent call last):
+  File "c:\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "g:\GitCode\myscrapy\lzscrapy\lzscrapy\spiders\githubspider.py", line 41, in after_login
+    print "the cookiejar is " + response.meta['cookiejar']
+TypeError: cannot concatenate 'str' and 'int' objects
+2016-04-12 18:04:40 [scrapy] INFO: Closing spider (finished)
+2016-04-12 18:04:40 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1628,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 27826,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/302': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 10, 4, 40, 72000),
+ 'log_count/DEBUG': 9,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2016, 4, 12, 10, 4, 37, 422000)}
+2016-04-12 18:04:40 [scrapy] INFO: Spider closed (finished)
+2016-04-12 18:05:28 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 18:05:28 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 18:05:28 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 18:05:28 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 18:05:29 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 18:05:29 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 18:05:29 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 18:05:29 [scrapy] INFO: Spider opened
+2016-04-12 18:05:29 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 18:05:29 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 18:05:30 [scrapy] DEBUG: Received cookies from: <200 https://github.com/login>
+Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:06:15 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiZWY2MTAyYjgyNmE2YjE1YWE0NTQ3ZWIxYjVkYzFkNDUiLCJfY3NyZl90b2tlbiI6IkhuMSt3a2k4U05jUk15ZlIzOWdrWGxWMytBOHBGdTM5YjcwL3hkbGVEckE9In0%3D--0d385cb7b70e3f30e460990057b587db39bccfb1; path=/; secure; HttpOnly
+2016-04-12 18:05:30 [scrapy] DEBUG: Crawled (200) <GET https://github.com/login> (referer: None)
+2016-04-12 18:05:30 [scrapy] DEBUG: Sending cookies to: <POST https://github.com/session>
+Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiZWY2MTAyYjgyNmE2YjE1YWE0NTQ3ZWIxYjVkYzFkNDUiLCJfY3NyZl90b2tlbiI6IkhuMSt3a2k4U05jUk15ZlIzOWdrWGxWMytBOHBGdTM5YjcwL3hkbGVEckE9In0%3D--0d385cb7b70e3f30e460990057b587db39bccfb1; logged_in=no
+2016-04-12 18:05:31 [scrapy] DEBUG: Received cookies from: <302 https://github.com/session>
+Set-Cookie: user_session=6p6ctuh200KUt153Yue6yF_hnRzC67AByk5JgdmffHVer_61VwzIl3yc7i9NzC4tNjuOr4SWcaCTR96B; path=/; expires=Tue, 26 Apr 2016 10:06:15 -0000; secure; HttpOnly
+Set-Cookie: logged_in=yes; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:06:15 -0000; secure; HttpOnly
+Set-Cookie: dotcom_user=woshichuanqilz; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:06:15 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NTc1NjkyLCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiNmZkOWJjYjFlNDM4NzEzMmIxMjRjM2VjZDYyOGQxYjYifQ%3D%3D--5310bea457b12d098f968199a7cc405a97a1a7a1; path=/; secure; HttpOnly
+2016-04-12 18:05:31 [scrapy] DEBUG: Redirecting (302) to <GET https://github.com/> from <POST https://github.com/session>
+2016-04-12 18:05:31 [scrapy] DEBUG: Sending cookies to: <GET https://github.com/>
+Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NTc1NjkyLCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiNmZkOWJjYjFlNDM4NzEzMmIxMjRjM2VjZDYyOGQxYjYifQ%3D%3D--5310bea457b12d098f968199a7cc405a97a1a7a1; user_session=6p6ctuh200KUt153Yue6yF_hnRzC67AByk5JgdmffHVer_61VwzIl3yc7i9NzC4tNjuOr4SWcaCTR96B; logged_in=yes; dotcom_user=woshichuanqilz
+2016-04-12 18:05:31 [scrapy] DEBUG: Received cookies from: <200 https://github.com/>
+Set-Cookie: user_session=6p6ctuh200KUt153Yue6yF_hnRzC67AByk5JgdmffHVer_61VwzImGfcvMfjPUHarxaeYGW2yauEeNMx; path=/; expires=Tue, 26 Apr 2016 10:06:16 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NTc1NjkyLCJmbGFzaCI6eyJkaXNjYXJkIjpbImFuYWx5dGljc19kaW1lbnNpb24iLCJhbmFseXRpY3NfbG9jYXRpb24iXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifSwiYW5hbHl0aWNzX2xvY2F0aW9uIjoiL2Rhc2hib2FyZCJ9fSwic2Vzc2lvbl9pZCI6IjZmZDliY2IxZTQzODcxMzJiMTI0YzNlY2Q2MjhkMWI2IiwiY29udGV4dCI6Ii8ifQ%3D%3D--98f0fbd2060c2a9d36efe2aa5d552aa37d0502aa; path=/; secure; HttpOnly
+2016-04-12 18:05:31 [scrapy] DEBUG: Crawled (200) <GET https://github.com/> (referer: https://github.com/login)
+2016-04-12 18:05:32 [scrapy] INFO: Closing spider (finished)
+2016-04-12 18:05:32 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1630,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 27823,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/302': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 10, 5, 32, 59000),
+ 'log_count/DEBUG': 9,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2016, 4, 12, 10, 5, 29, 190000)}
+2016-04-12 18:05:32 [scrapy] INFO: Spider closed (finished)
+2016-04-12 18:06:01 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 18:06:01 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 18:06:01 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 18:06:02 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 18:06:02 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 18:06:02 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 18:06:02 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 18:06:02 [scrapy] INFO: Spider opened
+2016-04-12 18:06:02 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 18:06:02 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 18:06:03 [scrapy] DEBUG: Received cookies from: <200 https://github.com/login>
+Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:06:48 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiYjc1NWFmZjQ4YmQ0YjFlOTIzMjQzMWUzNjNmYjA2ZjciLCJfY3NyZl90b2tlbiI6IkwvN0J2UW56Y1RaMjFCMzdBOGFiT2ZmR0RDMzg4a2Zrdi9PbnE3OGo2Mms9In0%3D--053c6253ba76e401a01ad41bc73d7ee53b271d51; path=/; secure; HttpOnly
+2016-04-12 18:06:03 [scrapy] DEBUG: Crawled (200) <GET https://github.com/login> (referer: None)
+2016-04-12 18:06:03 [scrapy] DEBUG: Sending cookies to: <POST https://github.com/session>
+Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiYjc1NWFmZjQ4YmQ0YjFlOTIzMjQzMWUzNjNmYjA2ZjciLCJfY3NyZl90b2tlbiI6IkwvN0J2UW56Y1RaMjFCMzdBOGFiT2ZmR0RDMzg4a2Zrdi9PbnE3OGo2Mms9In0%3D--053c6253ba76e401a01ad41bc73d7ee53b271d51; logged_in=no
+2016-04-12 18:06:04 [scrapy] DEBUG: Received cookies from: <302 https://github.com/session>
+Set-Cookie: user_session=Bj8KaLEa8Qgg38y0V-Jsc3ryYCBadMKaOndzQTaIp2WKIb6YVwzIuLgOPf6ywGdOm29Q4WnWIaBFl_bj; path=/; expires=Tue, 26 Apr 2016 10:06:48 -0000; secure; HttpOnly
+Set-Cookie: logged_in=yes; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:06:48 -0000; secure; HttpOnly
+Set-Cookie: dotcom_user=woshichuanqilz; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:06:48 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NjA4NzA0LCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiMjc3MzMwNmE2YjE0OWE2NzEyNjljY2Q4ZjQ4NzMwNzMifQ%3D%3D--f2d100e70f4d6181c5cc33581f472a1711be75bf; path=/; secure; HttpOnly
+2016-04-12 18:06:04 [scrapy] DEBUG: Redirecting (302) to <GET https://github.com/> from <POST https://github.com/session>
+2016-04-12 18:06:04 [scrapy] DEBUG: Sending cookies to: <GET https://github.com/>
+Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NjA4NzA0LCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiMjc3MzMwNmE2YjE0OWE2NzEyNjljY2Q4ZjQ4NzMwNzMifQ%3D%3D--f2d100e70f4d6181c5cc33581f472a1711be75bf; user_session=Bj8KaLEa8Qgg38y0V-Jsc3ryYCBadMKaOndzQTaIp2WKIb6YVwzIuLgOPf6ywGdOm29Q4WnWIaBFl_bj; logged_in=yes; dotcom_user=woshichuanqilz
+2016-04-12 18:06:04 [scrapy] DEBUG: Received cookies from: <200 https://github.com/>
+Set-Cookie: user_session=Bj8KaLEa8Qgg38y0V-Jsc3ryYCBadMKaOndzQTaIp2WKIb6YVwzIuf2Gvw1gHpO5YfvzTnHmfkl8RFl-; path=/; expires=Tue, 26 Apr 2016 10:06:49 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NjA4NzA0LCJmbGFzaCI6eyJkaXNjYXJkIjpbImFuYWx5dGljc19kaW1lbnNpb24iLCJhbmFseXRpY3NfbG9jYXRpb24iXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifSwiYW5hbHl0aWNzX2xvY2F0aW9uIjoiL2Rhc2hib2FyZCJ9fSwic2Vzc2lvbl9pZCI6IjI3NzMzMDZhNmIxNDlhNjcxMjY5Y2NkOGY0ODczMDczIiwiY29udGV4dCI6Ii8ifQ%3D%3D--3cc82554a92a9d42e93d93dad862a9e580c72814; path=/; secure; HttpOnly
+2016-04-12 18:06:04 [scrapy] DEBUG: Crawled (200) <GET https://github.com/> (referer: https://github.com/login)
+2016-04-12 18:06:04 [scrapy] ERROR: Spider error processing <GET https://github.com/> (referer: https://github.com/login)
+Traceback (most recent call last):
+  File "c:\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "g:\GitCode\myscrapy\lzscrapy\lzscrapy\spiders\githubspider.py", line 41, in after_login
+    print 'the cookiejar is' + response.meta['cookiejar']
+TypeError: cannot concatenate 'str' and 'int' objects
+2016-04-12 18:06:05 [scrapy] INFO: Closing spider (finished)
+2016-04-12 18:06:05 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1632,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 27834,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/302': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 10, 6, 5, 47000),
+ 'log_count/DEBUG': 9,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2016, 4, 12, 10, 6, 2, 201000)}
+2016-04-12 18:06:05 [scrapy] INFO: Spider closed (finished)
+2016-04-12 18:07:07 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 18:07:07 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 18:07:07 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 18:07:07 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 18:07:07 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 18:07:07 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 18:07:07 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 18:07:07 [scrapy] INFO: Spider opened
+2016-04-12 18:07:07 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 18:07:07 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 18:07:08 [scrapy] DEBUG: Received cookies from: <200 https://github.com/login>
+Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:07:53 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiYzYyZWFhNGUzY2RmMDUzODVmNWNkNGYzMGViMWJkZDAiLCJfY3NyZl90b2tlbiI6IndCemkxN2I1dXg4dnhWRGErb1Zsc2d2dWxwbWsvcnZrTnFmczVOR1hMT0k9In0%3D--841c435998df309aa595ed37a9938df1bdcfd3bd; path=/; secure; HttpOnly
+2016-04-12 18:07:08 [scrapy] DEBUG: Crawled (200) <GET https://github.com/login> (referer: None)
+2016-04-12 18:07:09 [scrapy] DEBUG: Sending cookies to: <POST https://github.com/session>
+Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiYzYyZWFhNGUzY2RmMDUzODVmNWNkNGYzMGViMWJkZDAiLCJfY3NyZl90b2tlbiI6IndCemkxN2I1dXg4dnhWRGErb1Zsc2d2dWxwbWsvcnZrTnFmczVOR1hMT0k9In0%3D--841c435998df309aa595ed37a9938df1bdcfd3bd; logged_in=no
+2016-04-12 18:07:09 [scrapy] DEBUG: Received cookies from: <302 https://github.com/session>
+Set-Cookie: user_session=yfZVhFJiS6T5BT8cvTt6Y6scGNIua-CxZD8SfCBnntucpBuOVwzI-VD3ZmihrxhGVHGIO0Pa0uF6p2W7; path=/; expires=Tue, 26 Apr 2016 10:07:53 -0000; secure; HttpOnly
+Set-Cookie: logged_in=yes; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:07:53 -0000; secure; HttpOnly
+Set-Cookie: dotcom_user=woshichuanqilz; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:07:53 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NjczOTg1LCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiMGU3YzQ2ZmM1NDgzMzhjYTkxZjk1MDIwZDQ4NTExZDcifQ%3D%3D--1e4a8ca700c2d7a09cbe1d67223c9fa1f475f0b7; path=/; secure; HttpOnly
+2016-04-12 18:07:09 [scrapy] DEBUG: Redirecting (302) to <GET https://github.com/> from <POST https://github.com/session>
+2016-04-12 18:07:09 [scrapy] DEBUG: Sending cookies to: <GET https://github.com/>
+Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NjczOTg1LCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiMGU3YzQ2ZmM1NDgzMzhjYTkxZjk1MDIwZDQ4NTExZDcifQ%3D%3D--1e4a8ca700c2d7a09cbe1d67223c9fa1f475f0b7; user_session=yfZVhFJiS6T5BT8cvTt6Y6scGNIua-CxZD8SfCBnntucpBuOVwzI-VD3ZmihrxhGVHGIO0Pa0uF6p2W7; logged_in=yes; dotcom_user=woshichuanqilz
+2016-04-12 18:07:10 [scrapy] DEBUG: Received cookies from: <200 https://github.com/>
+Set-Cookie: user_session=yfZVhFJiS6T5BT8cvTt6Y6scGNIua-CxZD8SfCBnntucpBuOVwzI-uzdMBiwC440qurGVMHL2RU-YfeI; path=/; expires=Tue, 26 Apr 2016 10:07:54 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU1NjczOTg1LCJmbGFzaCI6eyJkaXNjYXJkIjpbImFuYWx5dGljc19kaW1lbnNpb24iLCJhbmFseXRpY3NfbG9jYXRpb24iXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifSwiYW5hbHl0aWNzX2xvY2F0aW9uIjoiL2Rhc2hib2FyZCJ9fSwic2Vzc2lvbl9pZCI6IjBlN2M0NmZjNTQ4MzM4Y2E5MWY5NTAyMGQ0ODUxMWQ3IiwiY29udGV4dCI6Ii8ifQ%3D%3D--80200d034135f89ba1ce907e44c786d5cf5ef757; path=/; secure; HttpOnly
+2016-04-12 18:07:10 [scrapy] DEBUG: Crawled (200) <GET https://github.com/> (referer: https://github.com/login)
+2016-04-12 18:07:10 [scrapy] INFO: Closing spider (finished)
+2016-04-12 18:07:10 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1638,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 27883,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/302': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 10, 7, 10, 230000),
+ 'log_count/DEBUG': 9,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2016, 4, 12, 10, 7, 7, 548000)}
+2016-04-12 18:07:10 [scrapy] INFO: Spider closed (finished)
+2016-04-12 18:33:12 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 18:33:12 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 18:33:12 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 18:33:13 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 18:33:13 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 18:33:13 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 18:33:13 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 18:33:13 [scrapy] INFO: Spider opened
+2016-04-12 18:33:13 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 18:33:13 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 18:33:16 [scrapy] DEBUG: Received cookies from: <200 https://github.com/login>
+Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:34:00 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiZGIxZjMzMzk1MzhkNzM4YmNlYWY1NzJkMTkxYTNkM2EiLCJfY3NyZl90b2tlbiI6Ing2akcvdmdQR0R4a0xxZ3lHcFJlUlA2MVowSTN3cHh1VCtHTjRXcGpibG89In0%3D--b41cd5f7d08570793e0ce4b84cb98339f7506997; path=/; secure; HttpOnly
+2016-04-12 18:33:16 [scrapy] DEBUG: Crawled (200) <GET https://github.com/login> (referer: None)
+2016-04-12 18:33:16 [scrapy] DEBUG: Sending cookies to: <POST https://github.com/session>
+Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiZGIxZjMzMzk1MzhkNzM4YmNlYWY1NzJkMTkxYTNkM2EiLCJfY3NyZl90b2tlbiI6Ing2akcvdmdQR0R4a0xxZ3lHcFJlUlA2MVowSTN3cHh1VCtHTjRXcGpibG89In0%3D--b41cd5f7d08570793e0ce4b84cb98339f7506997; logged_in=no
+2016-04-12 18:33:16 [scrapy] DEBUG: Received cookies from: <302 https://github.com/session>
+Set-Cookie: user_session=vmLxUWvc3SPYrzGfWpIjM7FLHsYKAE--a7YcDBisiGm9-SUmVwzPGQITOQgtdfRdKUUg2krhxBM6Dtge; path=/; expires=Tue, 26 Apr 2016 10:34:01 -0000; secure; HttpOnly
+Set-Cookie: logged_in=yes; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:34:01 -0000; secure; HttpOnly
+Set-Cookie: dotcom_user=woshichuanqilz; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:34:01 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU3MjQxMjA4LCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiZWE0MGRjNjllMDk1NWY1Njk3NGNhMjJmNGQxMTExY2YifQ%3D%3D--3a79a6a5b29108b14d116eceec0437a35d21a79f; path=/; secure; HttpOnly
+2016-04-12 18:33:16 [scrapy] DEBUG: Redirecting (302) to <GET https://github.com/> from <POST https://github.com/session>
+2016-04-12 18:33:16 [scrapy] DEBUG: Sending cookies to: <GET https://github.com/>
+Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU3MjQxMjA4LCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiZWE0MGRjNjllMDk1NWY1Njk3NGNhMjJmNGQxMTExY2YifQ%3D%3D--3a79a6a5b29108b14d116eceec0437a35d21a79f; user_session=vmLxUWvc3SPYrzGfWpIjM7FLHsYKAE--a7YcDBisiGm9-SUmVwzPGQITOQgtdfRdKUUg2krhxBM6Dtge; logged_in=yes; dotcom_user=woshichuanqilz
+2016-04-12 18:33:17 [scrapy] DEBUG: Received cookies from: <200 https://github.com/>
+Set-Cookie: user_session=vmLxUWvc3SPYrzGfWpIjM7FLHsYKAE--a7YcDBisiGm9-SUmVwzPGQITOQgtdfRdKUUg2krhxBM6Dtge; path=/; expires=Tue, 26 Apr 2016 10:34:01 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU3MjQxMjA4LCJmbGFzaCI6eyJkaXNjYXJkIjpbImFuYWx5dGljc19kaW1lbnNpb24iLCJhbmFseXRpY3NfbG9jYXRpb24iXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifSwiYW5hbHl0aWNzX2xvY2F0aW9uIjoiL2Rhc2hib2FyZCJ9fSwic2Vzc2lvbl9pZCI6ImVhNDBkYzY5ZTA5NTVmNTY5NzRjYTIyZjRkMTExMWNmIiwiY29udGV4dCI6Ii8ifQ%3D%3D--64f742eadcf3f590626fafca2e1243cbf3245c45; path=/; secure; HttpOnly
+2016-04-12 18:33:17 [scrapy] DEBUG: Crawled (200) <GET https://github.com/> (referer: https://github.com/login)
+2016-04-12 18:33:17 [scrapy] DEBUG: Sending cookies to: <GET https://github.com/stars>
+Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU3MjQxMjA4LCJmbGFzaCI6eyJkaXNjYXJkIjpbImFuYWx5dGljc19kaW1lbnNpb24iLCJhbmFseXRpY3NfbG9jYXRpb24iXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifSwiYW5hbHl0aWNzX2xvY2F0aW9uIjoiL2Rhc2hib2FyZCJ9fSwic2Vzc2lvbl9pZCI6ImVhNDBkYzY5ZTA5NTVmNTY5NzRjYTIyZjRkMTExMWNmIiwiY29udGV4dCI6Ii8ifQ%3D%3D--64f742eadcf3f590626fafca2e1243cbf3245c45; user_session=vmLxUWvc3SPYrzGfWpIjM7FLHsYKAE--a7YcDBisiGm9-SUmVwzPGQITOQgtdfRdKUUg2krhxBM6Dtge; logged_in=yes; dotcom_user=woshichuanqilz
+2016-04-12 18:33:18 [scrapy] DEBUG: Received cookies from: <200 https://github.com/stars>
+Set-Cookie: user_session=vmLxUWvc3SPYrzGfWpIjM7FLHsYKAE--a7YcDBisiGm9-SUmVwzPGr4SpH_xvEObPGyE0i25duKJ97qI; path=/; expires=Tue, 26 Apr 2016 10:34:02 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU3MjQxMjA4LCJzZXNzaW9uX2lkIjoiZWE0MGRjNjllMDk1NWY1Njk3NGNhMjJmNGQxMTExY2YiLCJjb250ZXh0IjoiLyJ9--71deee35ec3b6b3c8438ba436561df3df405e9cc; path=/; secure; HttpOnly
+2016-04-12 18:33:18 [scrapy] DEBUG: Crawled (200) <GET https://github.com/stars> (referer: https://github.com/)
+2016-04-12 18:33:18 [scrapy] INFO: Closing spider (finished)
+2016-04-12 18:33:18 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2434,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 48709,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/302': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 10, 33, 18, 666000),
+ 'log_count/DEBUG': 12,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 2,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2016, 4, 12, 10, 33, 13, 221000)}
+2016-04-12 18:33:18 [scrapy] INFO: Spider closed (finished)
+2016-04-12 18:33:45 [scrapy] INFO: Scrapy 1.0.5 started (bot: lzscrapy)
+2016-04-12 18:33:45 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-04-12 18:33:45 [scrapy] INFO: Overridden settings: {'COOKIES_DEBUG': True, 'NEWSPIDER_MODULE': 'lzscrapy.spiders', 'SPIDER_MODULES': ['lzscrapy.spiders'], 'LOG_FILE': 'logfile.log', 'BOT_NAME': 'lzscrapy'}
+2016-04-12 18:33:45 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-12 18:33:45 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-12 18:33:45 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-12 18:33:45 [scrapy] INFO: Enabled item pipelines: 
+2016-04-12 18:33:45 [scrapy] INFO: Spider opened
+2016-04-12 18:33:45 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-12 18:33:45 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-04-12 18:33:47 [scrapy] DEBUG: Received cookies from: <200 https://github.com/login>
+Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:34:31 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiYWY0ZDY4ZGMwNTJlMWI2YzQyZDhmNDE3MmIyZDM5NmYiLCJfY3NyZl90b2tlbiI6IllWSVNIZWRZTlJYanEyT2tlLy9IbVQ3YmM4QmtsRFZDV2JXb1Nrc09WbGM9In0%3D--f1c035d41fc2e68210b727ae9b4f3706c4f907b9; path=/; secure; HttpOnly
+2016-04-12 18:33:47 [scrapy] DEBUG: Crawled (200) <GET https://github.com/login> (referer: None)
+2016-04-12 18:33:47 [scrapy] DEBUG: Sending cookies to: <POST https://github.com/session>
+Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiYWY0ZDY4ZGMwNTJlMWI2YzQyZDhmNDE3MmIyZDM5NmYiLCJfY3NyZl90b2tlbiI6IllWSVNIZWRZTlJYanEyT2tlLy9IbVQ3YmM4QmtsRFZDV2JXb1Nrc09WbGM9In0%3D--f1c035d41fc2e68210b727ae9b4f3706c4f907b9; logged_in=no
+2016-04-12 18:33:47 [scrapy] DEBUG: Received cookies from: <302 https://github.com/session>
+Set-Cookie: user_session=zZ6a50QduJ9BBOVEBLq7bgTRWF5MmW7dGqd10OXfG1DdauqnVwzPODOBao-BcETdy_ZS3L5xk-T9riMN; path=/; expires=Tue, 26 Apr 2016 10:34:32 -0000; secure; HttpOnly
+Set-Cookie: logged_in=yes; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:34:32 -0000; secure; HttpOnly
+Set-Cookie: dotcom_user=woshichuanqilz; domain=.github.com; path=/; expires=Sat, 12 Apr 2036 10:34:32 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU3MjcyMTM3LCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiOWRiMjRjYjY0ZDc1ZjRkYTRiZmIyZTUxYjljYjgwMDYifQ%3D%3D--8ef1e31b262863804b13e457b51c7644e19198af; path=/; secure; HttpOnly
+2016-04-12 18:33:47 [scrapy] DEBUG: Redirecting (302) to <GET https://github.com/> from <POST https://github.com/session>
+2016-04-12 18:33:47 [scrapy] DEBUG: Sending cookies to: <GET https://github.com/>
+Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU3MjcyMTM3LCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifX19LCJzZXNzaW9uX2lkIjoiOWRiMjRjYjY0ZDc1ZjRkYTRiZmIyZTUxYjljYjgwMDYifQ%3D%3D--8ef1e31b262863804b13e457b51c7644e19198af; user_session=zZ6a50QduJ9BBOVEBLq7bgTRWF5MmW7dGqd10OXfG1DdauqnVwzPODOBao-BcETdy_ZS3L5xk-T9riMN; logged_in=yes; dotcom_user=woshichuanqilz
+2016-04-12 18:33:48 [scrapy] DEBUG: Received cookies from: <200 https://github.com/>
+Set-Cookie: user_session=zZ6a50QduJ9BBOVEBLq7bgTRWF5MmW7dGqd10OXfG1DdauqnVwzPODOBao-BcETdy_ZS3L5xk-T9riMN; path=/; expires=Tue, 26 Apr 2016 10:34:32 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU3MjcyMTM3LCJmbGFzaCI6eyJkaXNjYXJkIjpbImFuYWx5dGljc19kaW1lbnNpb24iLCJhbmFseXRpY3NfbG9jYXRpb24iXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifSwiYW5hbHl0aWNzX2xvY2F0aW9uIjoiL2Rhc2hib2FyZCJ9fSwic2Vzc2lvbl9pZCI6IjlkYjI0Y2I2NGQ3NWY0ZGE0YmZiMmU1MWI5Y2I4MDA2IiwiY29udGV4dCI6Ii8ifQ%3D%3D--bb89690de6cf9d96826797ae71c2d1b65e653dc3; path=/; secure; HttpOnly
+2016-04-12 18:33:48 [scrapy] DEBUG: Crawled (200) <GET https://github.com/> (referer: https://github.com/login)
+2016-04-12 18:33:48 [scrapy] DEBUG: Sending cookies to: <GET https://github.com/stars>
+Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU3MjcyMTM3LCJmbGFzaCI6eyJkaXNjYXJkIjpbImFuYWx5dGljc19kaW1lbnNpb24iLCJhbmFseXRpY3NfbG9jYXRpb24iXSwiZmxhc2hlcyI6eyJhbmFseXRpY3NfZGltZW5zaW9uIjp7Im5hbWUiOiJkaW1lbnNpb241IiwidmFsdWUiOiJMb2dnZWQgSW4ifSwiYW5hbHl0aWNzX2xvY2F0aW9uIjoiL2Rhc2hib2FyZCJ9fSwic2Vzc2lvbl9pZCI6IjlkYjI0Y2I2NGQ3NWY0ZGE0YmZiMmU1MWI5Y2I4MDA2IiwiY29udGV4dCI6Ii8ifQ%3D%3D--bb89690de6cf9d96826797ae71c2d1b65e653dc3; user_session=zZ6a50QduJ9BBOVEBLq7bgTRWF5MmW7dGqd10OXfG1DdauqnVwzPODOBao-BcETdy_ZS3L5xk-T9riMN; logged_in=yes; dotcom_user=woshichuanqilz
+2016-04-12 18:33:49 [scrapy] DEBUG: Received cookies from: <200 https://github.com/stars>
+Set-Cookie: user_session=zZ6a50QduJ9BBOVEBLq7bgTRWF5MmW7dGqd10OXfG1DdauqnVwzPOeG7c_kXk06ky9uG6MKjuRqWFdvA; path=/; expires=Tue, 26 Apr 2016 10:34:33 -0000; secure; HttpOnly
+Set-Cookie: _gh_sess=eyJsYXN0X3dyaXRlIjoxNDYwNDU3MjcyMTM3LCJzZXNzaW9uX2lkIjoiOWRiMjRjYjY0ZDc1ZjRkYTRiZmIyZTUxYjljYjgwMDYiLCJjb250ZXh0IjoiLyJ9--0bcfab217f30ab442893bf64fad98265e54f43a7; path=/; secure; HttpOnly
+2016-04-12 18:33:49 [scrapy] DEBUG: Crawled (200) <GET https://github.com/stars> (referer: https://github.com/)
+2016-04-12 18:33:49 [scrapy] INFO: Closing spider (finished)
+2016-04-12 18:33:49 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2432,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 48764,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/302': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 12, 10, 33, 49, 406000),
+ 'log_count/DEBUG': 12,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 2,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2016, 4, 12, 10, 33, 45, 617000)}
+2016-04-12 18:33:49 [scrapy] INFO: Spider closed (finished)
